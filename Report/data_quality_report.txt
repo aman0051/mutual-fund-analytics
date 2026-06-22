@@ -1,0 +1,24 @@
+DATA QUALITY REPORT
+
+Total Datasets Analyzed: 10
+
+Dataset Summary:
+- 01_fund_master.csv : 40 rows, 15 columns
+- 02_nav_history.csv : 46000 rows, 3 columns
+- 03_aum_by_fund_house.csv : 90 rows, 5 columns
+- 04_monthly_sip_inflows.csv : 48 rows, 6 columns
+- 05_category_inflows.csv : 144 rows, 3 columns
+- 06_industry_folio_count.csv : 21 rows, 6 columns
+- 07_scheme_performance.csv : 40 rows, 19 columns
+- 08_investor_transactions.csv : 32778 rows, 13 columns
+- 09_portfolio_holdings.csv : 322 rows, 8 columns
+- 10_benchmark_indices.csv : 8050 rows, 3 columns
+
+Missing Values:
+- yoy_growth_pct column in 04_monthly_sip_inflows.csv has 12 missing values.
+
+Duplicate Records:
+- No duplicate records found.
+
+Conclusion:
+All datasets were successfully loaded and analyzed using Pandas. Data quality checks were performed for missing values and duplicates. Only one dataset contains missing values, while no duplicate records were found.
